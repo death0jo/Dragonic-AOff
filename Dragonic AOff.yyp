@@ -474,6 +474,7 @@
     {"id":{"name":"input_cursor_elastic_get","path":"scripts/input_cursor_elastic_get/input_cursor_elastic_get.yy",},"order":0,},
     {"id":{"name":"spr_tecla_ctrl","path":"sprites/spr_tecla_ctrl/spr_tecla_ctrl.yy",},"order":10,},
     {"id":{"name":"spr_tecla_A","path":"sprites/spr_tecla_A/spr_tecla_A.yy",},"order":11,},
+    {"id":{"name":"spr_armadura_32","path":"sprites/spr_armadura_32/spr_armadura_32.yy",},"order":33,},
     {"id":{"name":"spr_tecla_U","path":"sprites/spr_tecla_U/spr_tecla_U.yy",},"order":12,},
     {"id":{"name":"spr_tecla_f6","path":"sprites/spr_tecla_f6/spr_tecla_f6.yy",},"order":13,},
     {"id":{"name":"input_binding_set_safe","path":"scripts/input_binding_set_safe/input_binding_set_safe.yy",},"order":0,},
