@@ -35,14 +35,14 @@ if (targetNPC != -1) {
         
         idDano = instance_create(targetNPC.x, targetNPC.y - 41, obj_efecto_dano);
         idDano.dano = dano;
-        idDano.padre = targetNPC;
+        idDano.padre = targetNPC.id;
         
         var expOtorgada = 0;
                                                 
         if (targetNPC.salud > 0) {
             expOtorgada = floor(targetNPC.experiencia / (targetNPC.salud / dano));
         }
-                
+                                
         if (targetNPC.experiencia - expOtorgada <= 0) {
             expOtorgada = targetNPC.experiencia;
             targetNPC.experiencia = 0;
@@ -65,5 +65,7 @@ if (targetNPC != -1) {
     }
     
 }
+    
+
 
 alarm[2] = intervaloAtaque;
