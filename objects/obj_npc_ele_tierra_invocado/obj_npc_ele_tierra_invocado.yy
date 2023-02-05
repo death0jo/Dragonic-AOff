@@ -26,8 +26,8 @@
     "path": "folders/Objects/NPCs/Mascotas e Invocaciones.yy",
   },
   "parentObjectId": {
-    "name": "obj_npc_basic",
-    "path": "objects/obj_npc_basic/obj_npc_basic.yy",
+    "name": "obj_npc_basic_elementales",
+    "path": "objects/obj_npc_basic_elementales/obj_npc_basic_elementales.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
